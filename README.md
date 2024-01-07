@@ -24,7 +24,7 @@ This project is to build and automate an end to end data platform right from Dat
 #### Step 3 - Install dependences and neccessary libraries needed 
 - **sudo apt update** - Update the EC2 that have been created
 ```diff
-- Update the EC2 that have been created
+Update the EC2 that have been created
 ```
 - **sudo apt install python3-pip** - install Python if needed 
 - **sudo apt install python3.10-venv** - install virtual environment 
