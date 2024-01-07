@@ -19,4 +19,20 @@ This project is to build and automate an end to end data platform right from Dat
             - IdentifyFile: File path of the pem file downloaded from AWS 
         3.  Open a remote window >> Connect to host >> choose the remote connect I have created " Weather-Airflow_Project" >> Select the platform of the instance (Linux)
 #### Step 2 - Edit incound rule 
+- The Inbound Rules control the incoming traffic that's allowed to reach the instance.
+- The purpose of this is to see the UI of Airflow in the set up port
+#### Step 3 - Install dependences and neccessary libraries needed 
+**sudo apt update** -- Update the EC2 that have been created 
+**sudo apt install python3-pip** - install Python if needed 
+**sudo apt install python3.10-venv** - install virtual environment 
+**python3 -m venv airflow_venv** - creating a virtual environment named "airflow_venv"
+**sudo pip install pandas** - install pandas in the created VEN (virtual environment)
+sudo pip install s3fs
+**sudo pip install apache-airflow** - install Apache Airflow  
+**airflow standalone** - to call airflow
+#### Step 3 - Creat DAGs
+- In the airflow, create connection to the API
+- See the file weather_dag.py
+
+
 
