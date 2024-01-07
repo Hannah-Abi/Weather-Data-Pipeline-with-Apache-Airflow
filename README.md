@@ -32,10 +32,19 @@ This project is to build and automate an end to end data platform right from Dat
 **`sudo pip install apache-airflow`** - install Apache Airflow  <br>
 **`airflow standalone`** - to call airflow<br> **You will get the username and apassword to access to the current airflow 
 #### Step 3 - Creat DAGs
-- To open the current airflow environment that has been provision, run this in a new brownser:
+- Open the current airflow environment that has been provision, run this in a new brownser:
   <br> ![Public IPv4 DNS](./images/Public_IPv4.png):Port (the port to connect the instance)
-- In the airflow, create connection to the API
+- Create a connection to the weathermap API HTTP
 - See the file weather_dag.py
 
+1.	Create AWS account 
+2.	Lauch Instance 
+3.	Initializing Instance 
+4.	Edit Inbound Rule 
+a.	Edit Inbound Rule 
+5.	Connect to Instance
+a.	User: admin
+b.	Password: zyy9uztBVKHkfzkm
+"C:\Users\phamh\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.12\Python 3.12 (64-bit).lnk"
 
 
