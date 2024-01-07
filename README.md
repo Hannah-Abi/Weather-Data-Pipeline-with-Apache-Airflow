@@ -23,7 +23,7 @@ This project is to build and automate an end to end data platform right from Dat
 - The purpose of this is to see the UI of Airflow in the set up port
 #### Step 3 - Install dependences and neccessary libraries needed 
 - **sudo apt update** --  <span style="color:green">Update the EC2 that have been created</span>
-- **sudo apt install python3-pip** - install Python if needed <span style="color:red">This is red text</span>
+- **sudo apt install python3-pip** - install Python if needed <font color="red">This is red text</font>
 
 - **sudo apt install python3.10-venv** - install virtual environment 
 - **python3 -m venv airflow_venv** - creating a virtual environment named "airflow_venv"
