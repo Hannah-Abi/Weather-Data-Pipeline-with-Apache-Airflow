@@ -22,29 +22,20 @@ This project is to build and automate an end to end data platform right from Dat
 - The Inbound Rules control the incoming traffic that's allowed to reach the instance.
 - The purpose of this is to see the UI of Airflow in the set up port
 #### Step 3 - Install dependences and neccessary libraries needed <br>
-**`sudo apt update`** - Update the EC2 that have been created <br>
-**`sudo apt install python3-pip`** - install Python if needed <br>
-**`sudo apt install python3.10-venv`** - install virtual environment <br>
-**`python3 -m venv airflow_venv`** - creating a virtual environment named "airflow_venv"<br>
-**`sudo pip install pandas`** - install pandas in the created VEN (virtual environment)<br>
-sudo pip install s3fs
+**`sudo apt update`** - Update the EC2 that have been provisioned <br>
+**`sudo apt install python3-pip`** - install Python <br>
+**`sudo apt install python3.10-venv`** - Install virtual environment <br>
+**`python3 -m venv airflow_venv`** - Create a virtual environment named "airflow_venv"<br>
+**`source airflow_venv/bin/activate`** - To actgivate the virtuakl environment
+**`sudo pip install pandas`** - install pandas in the provisioned VEN (virtual environment)<br>
+**`sudo pip install s3fs`** - To install s3 bucket<br>
 **`sudo pip install apache-airflow`** - install Apache Airflow  <br>
-**`airflow standalone`** - to call airflow<br>
+**`airflow standalone`** - to call airflow<br> **You will get the username and apassword to access to the current airflow 
 #### Step 3 - Creat DAGs
+- To open the current airflow environment that has been provision, run this in a new brownser:
+  <br>[Public IPv4 DNS](/images/Public IPv4.png).Port (the port to connect the instance)
 - In the airflow, create connection to the API
 - See the file weather_dag.py
 
-```json
-   // code for coloring
-```
-```html
-   // code for coloring
-```
-```js
-   // code for coloring
-```
-```css
-   // code for coloring
-```
-// etc.
+
 
