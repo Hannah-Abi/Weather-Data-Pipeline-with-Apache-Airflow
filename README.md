@@ -1,7 +1,6 @@
 ## Weather Data Pipeline Using Apache Airflow
 ### Overview 
-This project is to build and automate the data pipeline from Data Extraction, Data Transformation, and Data Loading. 
-This project is to create an end to end data platform right from Data Ingestion from [open weather map API](https://openweathermap.org/api), Data Transformation, Data Loading and Reporting. The use case for this project is building an end to end solution by ingesting the tables from HTTP serverusing Azure Data Factory and then store the data in Azure Data Lake Gen2. Then Azure databricks is used to transform the RAW data to the most cleanest form of data and then I use Azure Synapse Analytics to load the clean data and finally using Microsoft Power BI to integrate with Azure synapse analytics to build an interactive dashboard.
+This project is to build and automate an end to end data platform right from Data Ingestion from [open weather map API](https://openweathermap.org/api), Data Transformation, Data Loading and Reporting.
 ### Prerequisites
 - AWS Cloud Platform
 - Apache Airflow
