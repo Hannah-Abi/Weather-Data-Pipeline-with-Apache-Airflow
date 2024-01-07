@@ -33,7 +33,7 @@ This project is to build and automate an end to end data platform right from Dat
 **`airflow standalone`** - to call airflow<br> **You will get the username and apassword to access to the current airflow 
 #### Step 3 - Creat DAGs
 - To open the current airflow environment that has been provision, run this in a new brownser:
-  <br>[Public IPv4 DNS](/images/Public IPv4.png).Port (the port to connect the instance)
+  <br>[Public IPv4 DNS](./images/Public IPv4.png).Port (the port to connect the instance)
 - In the airflow, create connection to the API
 - See the file weather_dag.py
 
