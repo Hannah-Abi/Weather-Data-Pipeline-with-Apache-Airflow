@@ -37,7 +37,7 @@ This project is to build and automate an end to end data platform right from Dat
 - Create a connection to the weathermap API HTTP
 - See the file ![weather_dags.py file](weather_dag.py)
 #### Step 4 - Grant chart 
-![airflow_granchart](grant_chart.png)
+![airflow_granchart](./images/grant_chart.png)
 
 
 
