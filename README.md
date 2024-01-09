@@ -35,7 +35,7 @@ This project is to build and automate an end to end data platform right from Dat
 - Open the current airflow environment that has been provision, run this in a new brownser:
   <br> ![Public IPv4 DNS](./images/Public_IPv4.png):Port (the port to connect the instance)
 - Create a connection to the weathermap API HTTP
-- See the file ![weather_dags.py file](weather_dag.py)
+- See the file [weather_dags.py file](weather_dag.py)
 #### Step 4 - Grant chart 
 ![airflow_granchart](./images/grant_chart.png)
 
